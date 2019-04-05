@@ -99,7 +99,7 @@ if __name__ == '__main__':
     parser.add_argument('--pclass', default = 1, type = int)
 
     parser.add_argument('--result_dir', default = 'capsnet_results/')
-    parser.add_argument('--data_folder', default = '../../data/KrasHras/')
+    parser.add_argument('--data_folder', default = '../data/KrasHras/')
     parser.add_argument('--dim_type', default = '-2d')
     parser.add_argument('--debug', default = 0, type = int)
     parser.add_argument('--lr', default = 0.001, type = float)
